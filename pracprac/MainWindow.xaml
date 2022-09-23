@@ -1,0 +1,34 @@
+﻿<Window x:Class="pracprac.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pracprac"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="261">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <WrapPanel Grid.Row="0" Grid.Column="0">
+            <Button Foreground="Navy" Content="Navy" Margin="2"></Button>
+            <Button Foreground="Blue" Content="Blue" Margin="2"></Button>
+            <Button Foreground="Aqua" Content="Aqua" Margin="2"></Button>
+            <Button Foreground="Teal" Content="Teal" Margin="2"></Button>
+            <Button Foreground="Olive" Content="Olive" Margin="2"></Button>
+            <Button Foreground="Green" Content="Green" Margin="2"></Button>
+            <Button Foreground="Lime" Content="Lime" Margin="2"></Button>
+            <Button Foreground="Yellow" Content="Yellow" Margin="2"></Button>
+            <Button Foreground="Orange" Content="Orange" Margin="2"></Button>
+            <Button Foreground="Red" Content="Red" Margin="2"></Button>
+            <Button Foreground="Maroon" Content="Maroon" Margin="2"></Button>
+            <Button Foreground="Fuchsia" Content="Fuchsia" Margin="2"></Button>
+            <Button Foreground="Purple" Content="Purple" Margin="2"></Button>
+            <Button Foreground="Black" Content="Black" Margin="2"></Button>
+            <Button Foreground="Silver" Content="Silver" Margin="2"></Button>
+            <Button Foreground="Gray" Content="Gray" Margin="2"></Button>
+            <Button Foreground="White" Content="White " Margin="2"></Button>
+        </WrapPanel>
+    </Grid>
+</Window>

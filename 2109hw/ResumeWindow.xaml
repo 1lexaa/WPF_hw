@@ -1,0 +1,42 @@
+﻿<Window x:Class="_2109hw.ResumeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_2109hw"
+        mc:Ignorable="d"
+        Title="ResumeWindow" Height="450" Width="800">
+    <Grid TextBlock.FontFamily="Helvetica">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="4*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Row="0" Grid.Column="0" Background="#FFCCFFCC" HorizontalAlignment="Stretch">
+            <Image x:Name="Image"></Image>
+            <TextBlock Margin="5" FontSize="22" x:Name="BlockName" TextWrapping="Wrap" HorizontalAlignment="Center">Name</TextBlock>
+            <TextBlock Margin="5" FontSize="18" x:Name="BlockOccupation" TextWrapping="Wrap" HorizontalAlignment="Center">Occupation</TextBlock>
+            <TextBlock Margin="5" FontSize="16" x:Name="BlockCity" TextWrapping="Wrap" HorizontalAlignment="Center">City</TextBlock>
+            <TextBlock Margin="5" FontSize="22" HorizontalAlignment="Left">Contacts:</TextBlock>
+            <TextBlock Margin="5" FontSize="18" x:Name="BlockContacts" TextWrapping="Wrap" HorizontalAlignment="Center">ContactsContent</TextBlock>
+            <TextBlock Margin="5" FontSize="22" HorizontalAlignment="Left">GitHub:</TextBlock>
+            <TextBlock Margin="5" FontSize="18" x:Name="BlockGitHub" TextWrapping="Wrap" HorizontalAlignment="Center">GitHubContent</TextBlock>
+            <TextBlock Margin="5" FontSize="22" HorizontalAlignment="Left">LinkedIn:</TextBlock>
+            <TextBlock Margin="5" FontSize="18" x:Name="BlockLinkedIn" TextWrapping="Wrap" HorizontalAlignment="Center">LinkedInContent</TextBlock>
+        </StackPanel>
+
+        <StackPanel Grid.Row="0" Grid.Column="1">
+            <TextBlock Margin="5" FontSize="24" HorizontalAlignment="Left">Skills:</TextBlock>
+            <TextBlock Margin="5" FontSize="18" x:Name="BlockSkills" HorizontalAlignment="Center" TextWrapping="Wrap">SkillsContent</TextBlock>
+            <TextBlock Margin="5" FontSize="24" HorizontalAlignment="Left">Languages:</TextBlock>
+            <TextBlock Margin="5" FontSize="18" x:Name="BlockLanguages" HorizontalAlignment="Center" TextWrapping="Wrap">LanguagesContent</TextBlock>
+            <TextBlock Margin="5" FontSize="24" HorizontalAlignment="Left">Experience:</TextBlock>
+            <TextBlock Margin="5" FontSize="18" x:Name="BlockExperience" HorizontalAlignment="Center" TextWrapping="Wrap">ExperienceContent</TextBlock>
+            <TextBlock Margin="5" FontSize="24" HorizontalAlignment="Left">About me:</TextBlock>
+            <TextBlock Margin="5" FontSize="18" x:Name="BlockAboutMe" HorizontalAlignment="Center" TextWrapping="Wrap">AboutMeContent</TextBlock>
+            <TextBlock Margin="5" FontSize="24" HorizontalAlignment="Left">Education:</TextBlock>
+            <TextBlock Margin="5" FontSize="18" x:Name="BlockEducation" HorizontalAlignment="Center" TextWrapping="Wrap">EducationContent</TextBlock>
+        </StackPanel>
+
+    </Grid>
+</Window>
