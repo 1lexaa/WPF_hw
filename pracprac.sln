@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2109hw", "2109hw\2109hw.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "grid10x10", "grid10x10\grid10x10.csproj", "{2B73A349-4906-4F43-AF08-94A93F5404E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commands", "Commands\Commands.csproj", "{59D93AAE-5D28-419F-95EB-58A9DF8449F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Commands", "Commands\Commands.csproj", "{59D93AAE-5D28-419F-95EB-58A9DF8449F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RichTxtBoxCommands", "RichTxtBoxCommands\RichTxtBoxCommands.csproj", "{1252DE53-451A-41B7-B870-37C982940086}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RichTxtBoxCommands", "RichTxtBoxCommands\RichTxtBoxCommands.csproj", "{1252DE53-451A-41B7-B870-37C982940086}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVM_app", "MVVM_app\MVVM_app.csproj", "{4CA9BF41-F685-4111-A270-F05F1A1B79FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{1252DE53-451A-41B7-B870-37C982940086}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1252DE53-451A-41B7-B870-37C982940086}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1252DE53-451A-41B7-B870-37C982940086}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CA9BF41-F685-4111-A270-F05F1A1B79FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CA9BF41-F685-4111-A270-F05F1A1B79FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CA9BF41-F685-4111-A270-F05F1A1B79FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CA9BF41-F685-4111-A270-F05F1A1B79FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
